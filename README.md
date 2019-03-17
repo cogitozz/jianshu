@@ -3,4 +3,4 @@
 使用crawlspider创建爬虫项目，定义rule，爬取简书上的全部文章。
 使用xpath进行数据解析
 通过pipeline将数据存储到mysql
-使用twisted进行异步
+使用twisted进行异步存储数据到mysql提高爬取效率
