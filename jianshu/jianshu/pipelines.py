@@ -13,7 +13,7 @@ class JianshuPipeline(object):
             'host': '127.0.0.1',
             'port': 3306,
             'user': 'root',
-            'password': '090200',
+            'password': '',
             'database': 'jianshu',
             'charset': 'utf8'
         }
@@ -45,7 +45,7 @@ class JianshuTwistedPipeline(object):
             'host': '127.0.0.1',
             'port': 3306,
             'user': 'root',
-            'password': '090200',
+            'password': '',
             'database': 'jianshu',
             'charset': 'utf8',
             'cursorclass': cursors.DictCursor   # 指定cursor的类
